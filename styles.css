@@ -126,9 +126,12 @@ footer a:hover {
 }
 
 .profile-pic {
-    width: 50px; /* Adjust size */
-    height: 50px; /* Ensures it's a perfect circle */
-    border-radius: 50%; /* Makes it round */
-    float: left; /* Makes text wrap around it */
-    margin: 0 15px 10px 0; /* Adds space around the image */
+    width: 150px; /* Standard LinkedIn profile picture size */
+    height: 150px; /* Keeps it square before rounding */
+    border-radius: 50%; /* Makes it a perfect circle */
+    object-fit: cover; /* Ensures the image fills the frame without distortion */
+    float: left; /* Aligns the image to the left */
+    margin: 0 15px 10px 0; /* Adds spacing around the image */
+    border: 3px solid #0077B5; /* Optional: LinkedIn Blue Border */
 }
+
