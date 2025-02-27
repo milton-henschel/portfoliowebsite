@@ -124,3 +124,11 @@ footer a:hover {
     max-width: 100%;
     border-radius: 5px;
 }
+
+.profile-pic {
+    width: 150px; /* Adjust size */
+    height: 150px; /* Ensures it's a perfect circle */
+    border-radius: 50%; /* Makes it round */
+    float: left; /* Makes text wrap around it */
+    margin: 0 15px 10px 0; /* Adds space around the image */
+}
