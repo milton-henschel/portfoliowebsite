@@ -80,7 +80,7 @@ nav ul li a:hover {
 .hero h1 {
     font-size: 40px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 2px;
 }
 
