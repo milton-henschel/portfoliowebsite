@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milton's Project Portfolio</title>
+    <title>Milton's Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">MiSkillsLab</div>
+        <div class="logo">Milton's Professional Portfolio</div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -20,27 +20,147 @@
             </ul>
         </nav>
     </header>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Flashy Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+            color: white;
+            font-family: Arial, sans-serif;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            font-weight: bold;
+            text-transform: none;
+            margin-bottom: 10px;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            font-weight: 500;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+
+        /* Flashy Button */
+        .register-btn {
+            display: inline-block;
+            background-color: #f4c430;
+            color: #333;
+            padding: 12px 25px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-transform: none;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .register-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Event Section */
+        .events {
+            background-color: #f8f9fa;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .events h3 {
+            font-size: 2.5em;
+            color: #ff4b2b;
+            text-transform: none;
+            margin-bottom: 20px;
+        }
+
+        .event-card {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .event-card:hover {
+            transform: scale(1.05);
+        }
+
+        .event-card h4 {
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .event-card p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .program-outline {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 600px;
+            font-size: 1.2em;
+            line-height: 1.8;
+            padding: 20px;
+            background: #fff5e6;
+            border-left: 5px solid #ff4b2b;
+            border-radius: 8px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
 
     <section class="hero">
         <h1>Welcome to MiSkillsLab</h1>
-        <p>Master New skills, Elevate Your Career!.</p>
+        <p>Master New Skills, Elevate Your Career!</p>
+        <a href="https://t.me/miskillslab" class="register-btn">Subscribe to my channel on Telegram</a>
     </section>
 
-<h3> Upcoming Events</h3>
-    <h4>Online Workshop - KoboToolbox Essentials</h4>
-    <p> Date: March 06, 2025</p>
-    <h5>Program Outline</h5>
-        <ul>
-            <li>Introduction to KoboToolbox</li>
-            <li>Creating KoboToolbox account and navigation</li>
-            <li>Creating forms on KoboToolbox</li>
-            <li>Question types</li>
-            <li>Question options</li>
-            <li>Creating groups and repeat questions</li>
-            <li>Deploying form</li>
-            <li>Configuring form on mobile </li>
-        </ul>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbn6j-k958PrR4uID1qEDbcbwuvvTJyC_iQ3DvcEmb9uO00g/viewform?usp=sharing" class="btn"><em>Register Now</em></a>
+    <section class="events">
+        <h3>🔥 Upcoming Event 🔥</h3>
+        <div class="event-card">
+            <h4>🎓 Online Workshop - KoboToolbox Essentials</h4>
+            <p><strong>📅 Date:</strong> March 06, 2025</p>
+            <p><strong>🕒 Time:</strong> 10 AM - 2 PM GMT</p>
+            <p><strong>📍 Location:</strong> Virtual (Zoom)</p>
+        </div>
+
+        <h5>Program Outline:</h5>
+        <div class="program-outline">
+            <ul>
+                <li>🚀 Introduction to KoboToolbox</li>
+                <li>🔑 Creating a KoboToolbox account & navigation</li>
+                <li>📝 Building & designing data collection forms</li>
+                <li>📊 Question types & options</li>
+                <li>📑 Creating groups & repeat questions</li>
+                <li>📤 Deploying forms & collecting data</li>
+                <li>📱 Configuring forms on mobile devices</li>
+            </ul>
+        </div>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbn6j-k958PrR4uID1qEDbcbwuvvTJyC_iQ3DvcEmb9uO00g/viewform?usp=sharing" class="register-btn">Register Now!</a>
+    </section>
+
 
     <footer>
         <p>© MiSkillsLab. All rights reserved. 

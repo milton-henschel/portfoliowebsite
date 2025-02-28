@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milton's Project Portfolio</title>
+    <title>Milton's Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">Milton's Project Portfolio</div>
+        <div class="logo">Milton's Professional Portfolio</div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,39 +21,116 @@
         </nav>
     </header>
 
- <!-- Projects Section -->
- <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-        <!-- Project 1 -->
-        <div class="project-card">
-            <h3>Analysis of Determinants of Hypertension</h3>
-            <img src="images/box_plot_sex.png" alt="Box Plot">
-            <p>Analyzed data using R, Python, and visualization tools.</p>
-        </div>
-        <!-- Project 2 -->
-        <div class="project-card">
-            <h3>Prevalence of CHD</h3>
-            <img src="images/pop_forest_plot.png" alt="CHD Project">
-            <p>Meta-analysis of population and hospital-based studies.</p>
-        </div>
-        <!-- Project 3 -->
-        <div class="project-card">
-            <h3>Power BI Dashboards</h3>
-            <img src="images/pbi_dat.PNG" alt="Power BI Dashboard">
-            <p>Designed actionable dashboards for data presentation.</p>
-        </div>
-    </div>
-</section>
+    <section class="projects">
+        <h2>🚀 Completed Projects </h2>
+        
+        <div class="project-list">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <h3>📊 DHIS2 Aggregate Data Customization</h3>
+                <img src="images/health_insights.png" alt="Health Data Insights">
+                <p> The project aimed to develop a robust aggregate data collection tool for 
+                    health data management using DHIS2, a widely adopted open-source Health 
+                    Information Management System. DHIS2 was chosen for its flexibility, 
+                    scalability, and ability to support real-time data collection, visualization, 
+                    and analysis. Key metadata components—including organizational units, 
+                    data elements, and category combinations—were structured within DHIS2 to 
+                    ensure seamless data aggregation, reporting, and decision-making. 
+                    Its interoperability with other health systems further enhances data-driven 
+                    insights and improves health program monitoring and evaluation.
+                </p>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="project-item">
+                <h3>📊 Power BI Dashboard for Disease Trends</h3>
+                <img src="images/powerbi_dashboard.png" alt="Power BI">
+                <p>Created a Power BI dashboard visualizing trends in infectious diseases.</p>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="project-item">
+                <h3>⚕️ Electronic Health Records (EHR) Optimization</h3>
+                <img src="images/ehr_optimization.png" alt="EHR Optimization">
+                <p>Improved data entry workflows in an EHR system, reducing errors by 30%.</p>
+            </div>
+    
+            <!-- Project 4 -->
+            <div class="project-item">
+                <h3>🗂️ KoboToolbox Data Collection for NGOs</h3>
+                <img src="images/kobotoolbox.png" alt="KoboToolbox">
+                <p>Designed and deployed digital data collection tools for an NGO health project.</p>
+            </div>
+    
+            <!-- Project 5 -->
+            <div class="project-item">
+                <h3>🦠 COVID-19 Data Visualization</h3>
+                <img src="images/covid19_dashboard.png" alt="COVID-19 Analysis">
+                <p>Developed a COVID-19 tracking dashboard for real-time case monitoring.</p>
+            </div>
 
+        </div>
+    </section>
+    
+    <style>
+        .projects {
+            text-align: center;
+            padding: 50px;
+            background: #f8f9fa;
+        }
+    
+        .projects h2 {
+            font-size: 2.5em;
+            color: #ff4b2b;
+            text-transform: none;
+            margin-bottom: 20px;
+        }
+    
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+    
+        .project-item {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .project-item:hover {
+            transform: scale(1.05);
+        }
+    
+        .project-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    
+        .project-item h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 10px;
+        }
+    
+        .project-item p {
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+    
 
-<footer>
-    <p>© MiSkillsLab. All rights reserved. 
-        <a href="https://www.linkedin.com/MiSkillsLab" target="_blank">LinkedIn</a> | 
-        <a href="https://facebook.com/MiSkillsLab" target="_blank">Facebook</a> | 
-        <a href="https://twitter.com/MiSkillsLab" target="_blank">Twitter</a>
-    </p>
-</footer>
+    <footer>
+        <p>© Milton Ewusi. All rights reserved. 
+            <a href="https://www.linkedin.com/in/milton-henschel/" target="_blank">LinkedIn</a> 
+        </p>
+    </footer>
 
 </body>
 </html>
